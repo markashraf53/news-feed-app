@@ -13,7 +13,7 @@ import NavButton from "./NavButton";
 import { getAuthUserInfo, getIsSignedIn } from "../user/userSlice";
 import SearchBar from "./Search/SearchBar";
 import { SearchContextProvider } from "../contexts/SearchContext";
-import NotificationDropDown from "./notifications/notificationDropDown";
+import NotificationDropDown from "../notifications/notificationDropDown";
 import { useState } from "react";
 
 function NavBar() {
