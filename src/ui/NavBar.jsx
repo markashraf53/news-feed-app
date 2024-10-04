@@ -13,7 +13,7 @@ import NavButton from "./NavButton";
 import { getAuthUserInfo, getIsSignedIn } from "../user/userSlice";
 import SearchBar from "./Search/SearchBar";
 import { SearchContextProvider } from "../contexts/SearchContext";
-import NotificationDropDown from "../notifications/notificationDropDown";
+import NotificationDropDown from "../notifications/NotificationDropDown";
 import { useState } from "react";
 
 function NavBar() {
@@ -24,7 +24,7 @@ function NavBar() {
   const [showNotification, setShowNotification] = useState(false);
 
   function toggleShowNotification() {
-    setShowNotification((showNotification) => !showNotification)
+    setShowNotification((showNotification) => !showNotification);
   }
 
   return (
@@ -56,7 +56,6 @@ function NavBar() {
                 icon={faBell}
                 path="/notifications"
                 onClick={toggleShowNotification}
-                
               >
                 Notifications
               </NavButton>
