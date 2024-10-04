@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { getAuthUserInfo } from "../user/userSlice";
 import { dateFormaterFn } from "../helpers/dateFormaterFn";
-import FriendRequestResponseButtons from "./friendRequestResponseButtons";
+import FriendRequestResponseButtons from "./FriendRequestResponseButtons";
 import FriendRequestSenderInfo from "./FriendRequestSenderInfo";
 import useGetRequestInfo from "./hooks/useGetRequestInfo";
 import useAcceptFriendRequest from "./hooks/useAcceptFriendRequest";
