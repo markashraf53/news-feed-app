@@ -1,5 +1,5 @@
 import { useState } from "react";
-import OptionsButton from "./optionsButton";
+import OptionsButton from "./OptionsButton";
 import PropTypes from "prop-types";
 
 const DropdownMenu = ({ children }) => {
